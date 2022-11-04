@@ -1,3 +1,14 @@
+# startup_page
+This is a small project for me to get an understanding in how: 
+
+- Next,
+- React
+- and Tailwindcss 
+
+works together in a professional enviornment. **This is a dummy website** Everything you see in this project is for educational purposes and not for profit. Any relation to the posibility of plagarising someone elses (or your), work is purely coincidental.
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
