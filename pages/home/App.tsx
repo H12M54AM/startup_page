@@ -13,7 +13,7 @@ export default function App() {
 
         {/* Tailwind tests */}
         <div className='flex flex-col items-center justify-center w-full h-screen'>
-          <div className="text-3x1">Hello</div>
+          <div className="text-3xl">Hello</div>
         </div>
 
         {/* Pages */}
