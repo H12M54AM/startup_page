@@ -1,10 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./pages/**/*.{js, jsx, ts, tsx}",
-    "./styles/**/*.{css, module.css}", 
-    "./components/**/*.{js, jsx, ts, tsx}"
-  ],
+  mode: 'jit',
+  purge: {
+    enabled: true,
+    content: [
+      "./pages/*.{ts, js, jsx, tsx}",
+      "./components/**/*.{js, jsx, ts, tsx}",
+      "./styles/**/*.css"
+    ],
+  },
   theme: {
     extend: {},
   },

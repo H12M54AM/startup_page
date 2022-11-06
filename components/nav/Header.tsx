@@ -5,7 +5,7 @@ import React from "react";
 export default function Header() {
     return (
         <header>
-            <div className="flex flex-row list-none">
+            <div className="list-none">
                 <li><ul><a href="#">Home</a></ul></li>
                 <li><ul><a href="#">About</a></ul></li>
                 <li><ul><a href="#">Pricing</a></ul></li>
