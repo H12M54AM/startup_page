@@ -15,11 +15,22 @@ export default function Home() {
 
       {/* Pages */}
       <section className="bg-black ">
-        <h1>Landing</h1>
+        <h1>Company Name</h1>
+        <h3>Company Slogan</h3>
+      </section>
+      
+      <section>
+        <h1>About</h1>
       </section>
         
-      <h1>About</h1>
-      <Projects title={"Title"} img={"Image"} description={"Description"} date={"The date"}  />
+      {/* Shows the company projects worked. */}
+      <Projects 
+        title={"Title"} 
+        img={"Image"} 
+        description={"Description"} 
+        date={"The date"}  
+      />
+
       <h1>Community</h1>
       <Footer/>
     </>
