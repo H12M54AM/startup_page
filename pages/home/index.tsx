@@ -8,18 +8,13 @@ export default function Home() {
     <>
       <Header/>
 
-      {/* Tailwind tests */}
-      <div className='flex flex-col items-center justify-center w-full h-screen'>
-        <div className="text-3xl">Hello</div>
-      </div>
-
       {/* Pages */}
-      <section className="bg-black ">
-        <h1>Company Name</h1>
-        <h3>Company Slogan</h3>
+      <section className="p-8 py-40 bg-orange-100">
+        <h1 className="font-extrabold text-9xl">Company Name</h1>
+        <h3 className="py-5 text-3xl font-extralight">Company Slogan</h3>
       </section>
       
-      <section>
+      <section className="p-40 bg-orange-400">
         <h1>About</h1>
       </section>
         
